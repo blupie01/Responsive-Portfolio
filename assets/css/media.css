@@ -1,0 +1,170 @@
+
+/*Media Queries: Width 980px*/
+@media only screen and (min-device-width: 769px) and (max-device-width: 980px) {
+	/*General*/
+	.wrapper {
+		max-width: 80%;
+	}
+
+	/*Main content*/
+	.main-content {
+		max-width: 480px;
+	}
+
+	/*index page*/
+	.auth-image {
+		width: 100%;
+		height: 380px;
+	}
+
+	/*Portfolio*/
+	.image_container {
+		width: 100%;
+	}
+
+	.image_container img {
+		height: 250px;
+	}
+}
+
+/*Media Queries: Width 768px*/
+@media only screen and (min-device-width: 641px) and (max-device-width: 768px) {
+	/*General*/
+	.wrapper {
+		max-width: 95%;
+	}
+
+	/*main content*/
+	.main-content {
+		max-width: 100%;
+	}
+
+	/*portfolio page*/
+	.image_container {
+		width: 47.65%;
+	}
+
+	.image_container img {
+		width: 100%;
+		height: 300px;
+		border: 0 none;
+	}
+
+	/*sidebar*/
+	.sidebar {
+		max-width: 100%;
+		text-align: left;
+		margin-bottom: 40px;
+	}
+
+	/*index page*/
+	.auth-image {
+		width: 400px;
+		height: 350px;
+	}
+}
+
+/*Media Queries: Width 640px*/
+@media only screen and (max-device-width: 640px) {
+	/*General*/
+	.wrapper {
+		max-width: 95%;
+	}
+
+	h1 {
+		font-size: 60px;
+	}
+
+	/*header*/
+	header .wrapper {
+		max-width: 100%;
+	}
+
+	p {
+		font-size: 32px;
+		line-height: 1.5;
+	}
+
+	#my_name {
+		width: 100%;
+		font-size: 45px;
+	}
+
+	nav {
+		text-align: center;
+		margin: 15px 80px 15px auto;
+		width: 100%;
+	}
+
+	nav a {
+		margin-left: 85px;
+		padding-left: 85px;
+		font-size: 24px;
+	}
+
+	/*main content*/
+	#main-container {
+		padding-top: 185px;
+	}
+
+	/*main content*/
+	.main-content {
+		max-width: 100%;
+	}
+
+	/*sidebar*/
+	.sidebar {
+		max-width: 100%;
+		text-align: left;
+		margin-bottom: 40px;
+	}
+
+	.sidebar h2 {
+		font-size: 40px;
+	}
+
+	.social {
+	width: 90px;
+	height: 90px;
+	margin-top: 8px;
+	}
+
+	/*portfolio page*/
+	.image_container {
+		width: 100%;
+	}
+
+	.image_container img {
+		width: 100%;
+		height: 520px;
+		border: 0 none;
+	}
+
+	.image_container h3 {
+	padding: 35px;
+	margin-bottom: 10px;
+	font-size: 40px;
+	}
+
+	/*index page*/
+	.auth-image {
+		width: 100%;
+		height: 550px;
+		margin-bottom: 20px;
+	}
+
+	/*contact page*/
+	label {
+		font-size: 28px;
+		margin-bottom: 5px;
+	}
+
+	input[type=text], input[type=email], textarea {
+	padding: 20px 10px;
+	font-size: 22px;
+	}
+
+	input[type=submit] {
+		font-size: 32px;
+	}
+}
